@@ -11,20 +11,7 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "Ponkey Hub", 
     Text = "Done"
 })
-xwd = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-Gamename = xwd.Name
-local games = {
-[game.PlaceId] = {
-    Title = "Blox Fruits",
-    Icons = "",
-    Welcome = function()
-            return tostring(
-            " "
-                ..
-
-                        Gamename.. "!" .. " Ponkeyz]"  .."\n Loadded Successfully Ponkey Hub"
-                        Gamename.. "" .. " "  .."\n Loadded Successfully Ponkey Hub"
-                        wait (5)
+wait (5)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Ponkey Hub", "DarkTheme")
 local Tab = Window:NewTab("Home")
